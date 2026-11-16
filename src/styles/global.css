@@ -129,6 +129,8 @@ h3 { font-size: 22px; line-height: 1.25; font-weight: 600; }
 .now-list > div:last-child { border-bottom: 0; padding-bottom: 0; }
 .now-list p { color: var(--on-dark-muted); }
 .now-list .tools { font-family: var(--mono); font-size: 14px; color: var(--accent-on-dark); }
+.now-list .code-link { color: var(--on-dark); font-weight: 600; padding: 10px 0; align-self: flex-start; }
+.now-list .code-link:hover { color: var(--accent-on-dark); }
 
 /* Numbered points */
 .points { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(300px, 100%), 1fr)); gap: 40px; }

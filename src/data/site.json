@@ -51,7 +51,7 @@
     "heading": "I still build with my own hands.",
     "intro": "I write, test and run these myself, in daily use for my teaching practice.",
     "items": [
-      { "title": "Post-lesson workflow", "text": "A lesson transcript becomes a summary, a filed record, a tracker update and a draft email to parents, with no manual steps.", "tools": "Google Apps Script · Gemini API · Google Meet" },
+      { "title": "Post-lesson workflow", "text": "A lesson transcript becomes a summary, a filed record, a tracker update and a draft email to parents, with no manual steps.", "tools": "Google Apps Script · Gemini API · Google Meet", "link": "https://github.com/Manfred-Olbrich-Founder/post-lesson-workflow", "linkLabel": "See the code on GitHub" },
       { "title": "Voice-note agent", "text": "I speak a thought; it files the note and creates dated tasks in my task manager.", "tools": "Gemini API · ClickUp · Claude Code" },
       { "title": "This website", "text": "Designed and built by me with Claude Code, from first sketch to deployment.", "tools": "Astro · Claude Code · Cloudflare Pages" }
     ]
