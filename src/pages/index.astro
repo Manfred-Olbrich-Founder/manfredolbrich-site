@@ -1,0 +1,177 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+
+const studies = (await getCollection('case-studies')).sort((a, b) => a.data.order - b.data.order);
+const cvHref = site.cv || `mailto:${site.email}?subject=CV%20request`;
+const cvLabel = site.cv ? 'Download CV' : 'Request my CV';
+---
+
+<Base
+  title="Manfred Olbrich — founder, AI product and deployment"
+  description="Engineer turned founder. Seven years building an AI tutoring company, told through four case studies."
+>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">{site.name}</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="#journey">Journey</a>
+        <a href="#work">Case studies</a>
+        <a href="#breadth">Breadth</a>
+        <a href="#now">Now</a>
+        <a class="btn dark" href="#contact">Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <div class="wrap">
+        <div class="hero-text">
+          <div class="label">{site.hero.label}</div>
+          <h1>{site.hero.headline}</h1>
+          <p class="intro">{site.hero.intro}</p>
+          <div class="btn-row">
+            <a class="btn primary" href="#work">See the case studies</a>
+            <a class="btn outline" href={cvHref}>{cvLabel}</a>
+          </div>
+        </div>
+        <img class="portrait" src="/portrait.jpg" alt="Portrait of Manfred Olbrich" width="587" height="612" />
+      </div>
+    </section>
+
+    <section class="facts" aria-label="Key facts">
+      <div class="wrap">
+        {site.facts.map((f) => (
+          <div class="fact">
+            <div class="value">{f.value}</div>
+            <div class="caption">{f.label}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="section" id="journey">
+      <div class="wrap split">
+        <div class="side">
+          <div class="label">01 · The journey</div>
+          <h2>{site.journey.heading}</h2>
+          <p class="muted">{site.journey.intro}</p>
+        </div>
+        <ol class="timeline main">
+          {site.journey.items.map((i) => (
+            <li class={i.kind}>
+              <div class="when">{i.when}</div>
+              <h3>{i.title}</h3>
+              <p class="muted">{i.text}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    <section class="section alt" id="work">
+      <div class="wrap">
+        <div class="head">
+          <div class="label">02 · Case studies</div>
+          <h2>{site.work.heading}</h2>
+          <p class="muted">{site.work.intro}</p>
+        </div>
+        <div class="cards">
+          {studies.map((s) => (
+            <article class="card">
+              <div class="top">
+                <div class="code">{s.data.code} · {s.data.category}</div>
+                <div class="status">{s.data.status}</div>
+              </div>
+              <h3>{s.data.title}</h3>
+              <dl>
+                <div><dt>Problem</dt><dd>{s.data.card.problem}</dd></div>
+                <div><dt>What I did</dt><dd>{s.data.card.action}</dd></div>
+                <div><dt>Result</dt><dd class="result">{s.data.card.result}</dd></div>
+              </dl>
+              <a class="more" href={`/case-studies/${s.id}/`} aria-label={`Read the case study: ${s.data.title}`}>Read the case study →</a>
+            </article>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="breadth">
+      <div class="wrap">
+        <div class="head">
+          <div class="label">03 · Breadth</div>
+          <h2>{site.breadth.heading}</h2>
+        </div>
+        <div class="grid-rule">
+          {site.breadth.items.map((i) => (
+            <div>
+              <h3>{i.title}</h3>
+              <p>{i.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section dark" id="now">
+      <div class="wrap split">
+        <div class="side">
+          <div class="label">04 · What I build now</div>
+          <h2>{site.now.heading}</h2>
+          <p class="muted">{site.now.intro}</p>
+        </div>
+        <div class="main now-list">
+          {site.now.items.map((i) => (
+            <div>
+              <h3>{i.title}</h3>
+              <p>{i.text}</p>
+              <div class="tools">{i.tools}</div>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="lessons">
+      <div class="wrap">
+        <div class="head">
+          <div class="label">05 · What it taught me</div>
+          <h2>{site.lessons.heading}</h2>
+        </div>
+        <div class="points">
+          {site.lessons.items.map((i, n) => (
+            <div>
+              <div class="n" aria-hidden="true">{n + 1}</div>
+              <h3>{i.title}</h3>
+              <p>{i.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer" id="contact">
+    <div class="wrap">
+      <div class="cta">
+        <div>
+          <h2>{site.contact.heading}</h2>
+          <p>{site.contact.text}</p>
+        </div>
+        <div class="btn-row">
+          <a class="btn primary" href={`mailto:${site.email}`}>Email me</a>
+          <a class="btn outline" href={cvHref}>{cvLabel}</a>
+        </div>
+      </div>
+      <div class="base">
+        <div>{site.name} · London</div>
+        <div class="links">
+          <a href={`mailto:${site.email}`}>{site.email}</a>
+          <a href={site.linkedin}>LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</Base>

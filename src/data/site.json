@@ -1,0 +1,74 @@
+{
+  "live": false,
+  "name": "Manfred Olbrich",
+  "email": "hello@manfredolbrich.com",
+  "linkedin": "https://www.linkedin.com/in/manfred-olbrich-98b032b6",
+  "cv": "",
+  "hero": {
+    "label": "Engineer → Founder → AI product and deployment",
+    "headline": "I spent seven years building an AI tutoring company from the ground up.",
+    "intro": "I founded LessonWise, took it through three pivots, and shipped BrightPath: a tutoring service where AI analyses every lesson and a human signs it off. This site shows how I work."
+  },
+  "facts": [
+    { "value": "7 years", "label": "as founder and CEO" },
+    { "value": "5,000+", "label": "families supported" },
+    { "value": "96%", "label": "parent satisfaction" },
+    { "value": "£500k", "label": "peak annual revenue" },
+    { "value": "£1.6m", "label": "raised in equity and debt" }
+  ],
+  "journey": {
+    "heading": "From drilling machines to machine learning.",
+    "intro": "I trained as a mechanical engineer, taught maths for a decade, and built a company in between. The thread is the same: find the real problem, then build the thing that solves it.",
+    "items": [
+      { "when": "2009 – 2013 · Germany", "kind": "plain", "title": "Design engineer at Herrenknecht", "text": "Designed drilling systems and machine elements, and delivered client projects to specification, working in German." },
+      { "when": "2014 · London", "kind": "plain", "title": "A music degree, and the start of teaching", "text": "Moved to London to study music and began tutoring maths. More than 4,000 hours of one-to-one teaching since." },
+      { "when": "2019 – 2021 · Founding", "kind": "plain", "title": "LessonWise: a platform for tutors to teach groups online", "text": "Wrote the first product requirements, ran a tender, and led an offshore team to launch: virtual classroom, payments, homework and messaging. About 200 tutors joined within months." },
+      { "when": "Late 2021 · Pivot 1", "kind": "pivot", "title": "Tutors did not want to build their own audience", "text": "So we found the students for them. Free masterclasses fed paid courses, and more than 4,000 students joined within four months." },
+      { "when": "2023 · Pivot 2", "kind": "pivot", "title": "One-to-one first", "text": "Narrowed the offer to one-to-one tuition to build a base of families who trusted us before going wider." },
+      { "when": "2024 · Rebuilding", "kind": "plain", "title": "Back to a team of one, then up again", "text": "Ran the company alone for months, teaching and selling myself. Found an acquisition channel that worked, hired a sales team and grew revenue again." },
+      { "when": "2025 · Pivot 3", "kind": "pivot", "title": "BrightPath: managed tutoring with AI in every lesson", "text": "Short-term exam customers did not stay. I redesigned the business around families who wanted their child's learning managed, on subscription, with evidence of progress every month." },
+      { "when": "2026 · Shipped and handed over", "kind": "end", "title": "BrightPath live with paying families", "text": "In September 2026 I handed the company to a new leadership team. It continues today as Alucea." }
+    ]
+  },
+  "work": {
+    "heading": "Four problems, and how I solved them.",
+    "intro": "Each one covers the problem, the decisions I made and what happened. Full specifications are available on request."
+  },
+  "breadth": {
+    "heading": "A founder does every job at least once.",
+    "items": [
+      { "title": "Product", "text": "Wrote the full set of product requirements: user stories, acceptance criteria and data rules." },
+      { "title": "AI and automation", "text": "Human-in-the-loop design, retrieval-grounded chat and evaluation targets on Google Gemini models." },
+      { "title": "Technical delivery", "text": "Managed engineering vendors across the UK, India and the Philippines, and commissioned a code audit of four codebases." },
+      { "title": "Fundraising and investors", "text": "Raised £1.6 million in equity and debt, reported to investors every month and built the 2026–2030 business plan." },
+      { "title": "Team", "text": "Hired and led a peak team of 18 across three countries, in sales, marketing, support and engineering." },
+      { "title": "Finance and operations", "text": "Ran bookkeeping, financial reporting, R&D tax credit claims and grant applications." },
+      { "title": "Safeguarding and data", "text": "Built the safeguarding framework and the access and GDPR rules for children's data." },
+      { "title": "Partnerships", "text": "Delivered free group tutoring to disadvantaged pupils in Ireland with the charity Teach One, Save One." }
+    ]
+  },
+  "now": {
+    "heading": "I still build with my own hands.",
+    "intro": "I write, test and run these myself, in daily use for my teaching practice.",
+    "items": [
+      { "title": "Post-lesson workflow", "text": "A lesson transcript becomes a summary, a filed record, a tracker update and a draft email to parents, with no manual steps.", "tools": "Google Apps Script · Gemini API · Google Meet" },
+      { "title": "Voice-note agent", "text": "I speak a thought; it files the note and creates dated tasks in my task manager.", "tools": "Gemini API · ClickUp · Claude Code" },
+      { "title": "This website", "text": "Designed and built by me with Claude Code, from first sketch to deployment.", "tools": "Astro · Claude Code · Cloudflare Pages" }
+    ]
+  },
+  "lessons": {
+    "heading": "Six things I would tell my 2019 self.",
+    "items": [
+      { "title": "Ship the simple version first.", "text": "Our first platform had too many features, and many were never needed. I would go to market sooner with less, and let customers tell me what to add." },
+      { "title": "Hire slowly, and never out of pressure.", "text": "We grew the team too fast, too early, and under stress I hired reactively. Now I hire for a need I can already see, not one I hope for." },
+      { "title": "Only accept accountability that comes with authority.", "text": "For too long I answered for outcomes I did not have the power to change. I now check that the two match before I say yes, and I put the right protections in place on day one." },
+      { "title": "Say the hard thing early.", "text": "There were times I stayed quiet when I should have pushed back. A problem raised early is small. Raised late, it is expensive." },
+      { "title": "Write everything down.", "text": "Keep a record of decisions every week and every month. It keeps you honest, and it is the first thing you reach for when things get hard." },
+      { "title": "No company is worth your health.", "text": "Years without a real break left me tired, reactive and a worse leader. I now treat rest, and knowing when to change course, as part of the job." }
+    ]
+  },
+  "contact": {
+    "heading": "Give me a hard problem and a customer.",
+    "text": "I am looking for a full-time role in AI product or deployment. London based, open to relocation. I work in English, German and Spanish."
+  }
+}

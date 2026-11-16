@@ -1,0 +1,82 @@
+---
+order: 3
+code: "CS-03"
+category: "Agentic automation"
+status: "Live in tutor vetting"
+title: "A compliance agent for vetting tutors"
+summary: "How I cut background checks from an hour per tutor to fifteen minutes, and left a complete record behind every decision."
+card:
+  problem: "Every tutor who works with children needs several background checks. Done by hand, they were slow and left no single record."
+  action: "Designed an orchestrator that runs the DBS, teacher-record and open-source safety checks, retries or falls back when one fails, and returns PASS, HOLD or FAIL with an audit trail. A person decides every HOLD."
+  result: "Vetting time fell from an hour per tutor to 15 minutes on average."
+facts:
+  - label: "My role"
+    value: "Designer of the system and author of the specification"
+  - label: "Worked with"
+    value: "Head of tutoring, safeguarding lead, recruitment and engineering"
+  - label: "Checks covered"
+    value: "Criminal record status, teacher record, public-source safety search"
+  - label: "When"
+    value: "Specified October 2025"
+problem:
+  heading: "Safety checks that depended on someone remembering."
+  lead: "Every tutor works alone with a child. Vetting them is the one process that cannot be allowed to slip."
+  points:
+    - title: "Three checks, three places, all by hand"
+      text: "A criminal record check, a teacher record check and a search of public sources. Together they took about an hour per tutor."
+    - title: "No single record"
+      text: "Results lived in inboxes and folders. Proving what was checked, when and by whom meant hunting for it."
+    - title: "A check is only true on the day it is made"
+      text: "A certificate that was clean at hiring can change later. A one-off check at onboarding does not catch that."
+steps:
+  label: "How it works"
+  heading: "Three specialist agents, one coordinator, one verdict."
+  items:
+    - title: "Details and consent"
+      text: "Recruitment enters the tutor's details. Nothing runs without the tutor's consent."
+    - title: "Criminal record status"
+      text: "One agent checks whether the certificate is still current and saves the proof."
+    - title: "Teacher record"
+      text: "For qualified teachers, a second agent checks for any ban or restriction."
+    - title: "Public-source search"
+      text: "A third agent searches public sources and grades anything it finds by severity, with links."
+    - title: "One verdict"
+      text: "PASS, HOLD or FAIL. A HOLD or FAIL alerts the head of tutoring at once."
+decisions:
+  heading: "Six calls I made, and why."
+  items:
+    - title: "Use the official door first"
+      text: "Where a government service offers a proper route for employers, the agent uses it. Automation that bends a service's rules is a liability in a safeguarding process."
+    - title: "Plan for failure"
+      text: "A check that fails retries three times, waiting longer each time, then goes to a person. If the teacher-record service is down, the agent switches to the email route and chases at three and five working days."
+    - title: "A person confirms anything serious"
+      text: "The agent can clear a tutor. It cannot condemn one. A serious finding must be confirmed by a reviewer, and the tutor has a right to reply before any decision is final."
+    - title: "Guard against the wrong person"
+      text: "Many people share a name. A public-source finding needs a second matching detail before it is attached to a tutor, so a stranger's record never lands on the wrong file."
+    - title: "Checks expire"
+      text: "Active tutors are re-checked every 90 days, and every 30 days in higher-risk roles. Vetting becomes a schedule, not an event."
+    - title: "Evidence, not opinions"
+      text: "Every result is saved with its source, its time and who ran it, in a log that cannot be altered. Personal details are encrypted, and each role sees only what it needs."
+result:
+  heading: "An hour became fifteen minutes."
+  items:
+    - title: "Speed"
+      text: "Vetting time fell from an hour per tutor to 15 minutes on average."
+    - title: "Proof"
+      text: "Each tutor has one file holding every check, its evidence and the decision made."
+    - title: "Attention"
+      text: "People spend their time on the cases that need judgement, not on the ones that are clear."
+spec:
+  label: "The specification"
+  heading: "Targets I set for engineering."
+  intro: "These are the design targets from my specification. The full document is available on request."
+  numbers:
+    - value: "5 min"
+      label: "for the two official checks, 95 times in 100"
+    - value: "8 min"
+      label: "for a standard public-source search"
+    - value: "90%"
+      label: "minimum precision on the most serious category of finding"
+    - value: "4"
+      label: "roles, each with its own level of access"
+---

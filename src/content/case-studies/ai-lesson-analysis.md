@@ -1,0 +1,93 @@
+---
+order: 1
+code: "CS-01"
+category: "AI product"
+status: "Live with families"
+title: "AI lesson analysis with a human sign-off"
+summary: "How I turned lesson recordings into monthly evidence of progress that a parent can trust, with AI doing the reading and a tutor making the call."
+card:
+  problem: "Parents paid for tutoring and got anecdotes back. Nobody could show what a child had learned that month."
+  action: "Specified a pipeline that measures every lesson transcript against the curriculum. AI drafts the monthly report and suggests a grade; the tutor confirms both. I set the prompt inputs, output formats and evaluation targets."
+  result: "Progress reviews for 20 tutor–student pairs fell from a full day to about two hours."
+facts:
+  - label: "My role"
+    value: "Product owner. I wrote the specifications and set the quality targets"
+  - label: "Worked with"
+    value: "Engineers, tutors and account managers"
+  - label: "Built on"
+    value: "Google Gemini models, speech-to-text with speaker labels, retrieval"
+  - label: "When"
+    value: "2025 to 2026"
+problem:
+  heading: "“Is the tutoring actually working?”"
+  lead: "Every parent asks it. In most tutoring, the honest answer is a tutor's impression."
+  points:
+    - title: "Parents got anecdotes"
+      text: "“She's doing well” is not evidence. Families paying for a premium service needed to see what had changed, topic by topic."
+    - title: "The evidence existed, but nobody could read it all"
+      text: "Every lesson was recorded. No person has time to watch hundreds of hours a month and compare them with the curriculum."
+    - title: "Reviews ate whole days"
+      text: "An account manager needed a full day to review progress for 20 tutor–student pairs."
+steps:
+  label: "How it works"
+  heading: "AI reads every lesson. A person signs every report."
+  items:
+    - title: "Set a baseline"
+      text: "In month one, a diagnostic scores every topic red, amber or green."
+    - title: "Transcribe each lesson"
+      text: "Audio, whiteboard and chat are captured with consent, and the transcript shows who said what."
+    - title: "Measure against the curriculum"
+      text: "AI maps the lesson to syllabus topics, drafts the monthly report and suggests a current grade."
+    - title: "The tutor decides"
+      text: "The tutor corrects and confirms the draft. An account manager then approves it."
+    - title: "The parent sees progress"
+      text: "One page updates each month, with an email to say it is ready."
+decisions:
+  heading: "Five calls I made, and why."
+  items:
+    - title: "AI drafts, a person decides"
+      text: "This is a report about a child, read by their parent. Nothing reaches a family until the tutor who taught the lessons has confirmed it. The AI saves the tutor's time; it does not replace their judgement."
+    - title: "Define “good” before building"
+      text: "I gave engineers three targets to test against: how often the model invents something, how often it agrees with a human reviewer, and how fast it responds. Without those, “it seems fine” becomes the standard."
+    - title: "Fix the starting line"
+      text: "The month-one baseline never changes. Every later month is measured against it, so progress means the same thing in month two and month ten."
+    - title: "A published month cannot be edited"
+      text: "Each monthly update is stored as its own snapshot. A correction goes back through the tutor's approval; nobody can quietly rewrite history."
+    - title: "Children's data gets the strictest rule"
+      text: "A parent sees their own child and nobody else, enforced on every page. I wrote the access and data-protection rules into the specification itself."
+extra:
+  label: "What the parent sees"
+  heading: "One page, four answers."
+  intro: "Clear enough for a parent who is not a teacher. A section with no data yet says what will appear and when, so it never looks broken."
+  items:
+    - title: "Which gaps are closing?"
+      text: "Each weak topic has a bar showing where the child started and where they are now."
+    - title: "How far from the goal?"
+      text: "Starting grade, current grade and target grade on one scale."
+    - title: "How do they work?"
+      text: "Tutor ratings for independent learning and attitude, tracked month by month."
+    - title: "What happens next?"
+      text: "The tutor's report in plain prose: what was covered, what to work on, and next month's plan."
+result:
+  heading: "A full day became two hours."
+  items:
+    - title: "Account managers"
+      text: "Reviewing progress for 20 tutor–student pairs fell from a full day to about two hours."
+    - title: "Parents"
+      text: "Get structured evidence of progress every month, in place of anecdotal updates."
+    - title: "Tutors"
+      text: "Start each monthly report from a draft built on their own lessons, then correct and confirm it."
+spec:
+  label: "The specification"
+  heading: "What I handed to engineering."
+  intro: "The numbers below are from the parent progress page. The full documents are available on request."
+  numbers:
+    - value: "4"
+      label: "components on one page"
+    - value: "13"
+      label: "acceptance criteria an engineer can test against"
+    - value: "3"
+      label: "quality targets for the AI"
+    - value: "2"
+      label: "human checks before anything reaches a parent"
+---

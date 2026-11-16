@@ -1,0 +1,210 @@
+---
+import { getCollection } from 'astro:content';
+import Base from '../../layouts/Base.astro';
+import site from '../../data/site.json';
+
+export async function getStaticPaths() {
+  const studies = (await getCollection('case-studies')).sort((a, b) => a.data.order - b.data.order);
+  return studies.map((s, i) => ({
+    params: { slug: s.id },
+    props: { study: s, next: studies[(i + 1) % studies.length] },
+  }));
+}
+
+const { study, next } = Astro.props;
+const d = study.data;
+
+// Section numbers are worked out here, so adding or removing a section keeps them in order.
+let n = 0;
+const num = () => String(++n).padStart(2, '0');
+---
+
+<Base title={`${d.title} — Manfred Olbrich`} description={d.summary}>
+  <header class="site-header">
+    <div class="wrap">
+      <a class="brand" href="/">{site.name}</a>
+      <nav class="site-nav" aria-label="Main">
+        <a href="/#work">← All case studies</a>
+        <a class="btn dark" href={`mailto:${site.email}`}>Get in touch</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero case">
+      <div class="wrap">
+        <div class="tag-row">
+          <div class="label">{d.code} · {d.category}</div>
+          <div class="status">{d.status}</div>
+        </div>
+        <h1>{d.title}</h1>
+        <p class="intro">{d.summary}</p>
+      </div>
+    </section>
+
+    <section class="facts small" aria-label="Project facts">
+      <div class="wrap">
+        {d.facts.map((f) => (
+          <div>
+            <div class="k">{f.label}</div>
+            <div>{f.value}</div>
+          </div>
+        ))}
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap split">
+        <div class="side">
+          <div class="label">{num()} · The problem</div>
+          <h2>{d.problem.heading}</h2>
+        </div>
+        <div class="main">
+          <p class="lead">{d.problem.lead}</p>
+          <div class="rules">
+            {d.problem.points.map((p) => (
+              <div>
+                <h3>{p.title}</h3>
+                <p>{p.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section alt">
+      <div class="wrap">
+        <div class="head">
+          <div class="label">{num()} · {d.steps.label}</div>
+          <h2>{d.steps.heading}</h2>
+        </div>
+        <ol class="steps">
+          {d.steps.items.map((s, i) => (
+            <li>
+              <div class="n">STEP {i + 1}</div>
+              <h3>{s.title}</h3>
+              <p>{s.text}</p>
+            </li>
+          ))}
+        </ol>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="wrap">
+        <div class="head">
+          <div class="label">{num()} · The decisions that mattered</div>
+          <h2>{d.decisions.heading}</h2>
+        </div>
+        <div class="points wide">
+          {d.decisions.items.map((p, i) => (
+            <div>
+              <div class="n" aria-hidden="true">{i + 1}</div>
+              <h3>{p.title}</h3>
+              <p>{p.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    {d.extra && (
+      <section class="section alt">
+        <div class="wrap split">
+          <div class="side">
+            <div class="label">{num()} · {d.extra.label}</div>
+            <h2>{d.extra.heading}</h2>
+            <p class="muted">{d.extra.intro}</p>
+          </div>
+          <div class="main mini-cards">
+            {d.extra.items.map((p) => (
+              <div class="mini">
+                <h3>{p.title}</h3>
+                <p>{p.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    <section class="section dark">
+      <div class="wrap">
+        <div class="head">
+          <div class="label">{num()} · The result</div>
+          <h2>{d.result.heading}</h2>
+        </div>
+        <div class="results">
+          {d.result.items.map((p) => (
+            <div>
+              <h3>{p.title}</h3>
+              <p>{p.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
+    {d.spec && (
+      <section class="section">
+        <div class="wrap split">
+          <div class="side">
+            <div class="label">{num()} · {d.spec.label}</div>
+            <h2>{d.spec.heading}</h2>
+            <p class="muted">{d.spec.intro}</p>
+          </div>
+          <div class="main numbers">
+            {d.spec.numbers.map((x) => (
+              <div>
+                <div class="value">{x.value}</div>
+                <div class="caption">{x.label}</div>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+
+    {d.lessons && (
+      <section class="section">
+        <div class="wrap split">
+          <div class="side">
+            <div class="label">{num()} · {d.lessons.label}</div>
+            <h2>{d.lessons.heading}</h2>
+          </div>
+          <div class="main rules">
+            {d.lessons.items.map((p) => (
+              <div>
+                <h3>{p.title}</h3>
+                <p>{p.text}</p>
+              </div>
+            ))}
+          </div>
+        </div>
+      </section>
+    )}
+  </main>
+
+  <footer class="site-footer case">
+    <div class="wrap">
+      <div class="next">
+        <div>
+          <div class="k">NEXT · {next.data.code}</div>
+          <a class="title" href={`/case-studies/${next.id}/`}>{next.data.title} →</a>
+        </div>
+        <div class="btn-row">
+          <a class="btn outline" href="/#work">All case studies</a>
+          <a class="btn primary" href={`mailto:${site.email}`}>Email me</a>
+        </div>
+      </div>
+      <div class="base">
+        <div>{site.name} · London</div>
+        <div class="links">
+          <a href={`mailto:${site.email}`}>{site.email}</a>
+          <a href={site.linkedin}>LinkedIn</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</Base>
