@@ -3,6 +3,7 @@ order: 5
 code: "CS-05"
 category: "Technical feasibility"
 status: "Shipped 2021–2022"
+visual: "classroom"
 title: "Building a classroom for every subject"
 summary: "How I led an engineering team through three years of problems nobody had solved: a live online classroom where a tutor can teach maths, music or anything else as naturally as on paper."
 card:

@@ -1,0 +1,155 @@
+---
+// Illustrations for case studies. Each one is drawn in HTML, uses invented
+// details only, and is labelled as an illustration on the page.
+interface Props { kind: string }
+const { kind } = Astro.props;
+---
+{kind === 'wallet' && (
+  <div class="illus-wrap">
+    <div class="illus-text">
+      <h3>What a parent sees</h3>
+      <p class="muted">A weekly rhythm, what is left this month and the next charge, in one place. No spreadsheet, no email to ask.</p>
+      <div class="illus-note">Illustration. Names and details are invented.</div>
+    </div>
+    <div class="mock" role="img" aria-label="Illustration of a parent's plan page showing one maths lesson a week, three of four lessons left this month, and the next payment date">
+      <div class="mock-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="mock-body" aria-hidden="true">
+        <div class="mock-row">
+          <div><div class="mock-k">Alex's plan</div><div class="mock-big">1 Maths lesson a week</div></div>
+          <div class="mock-pill">Active</div>
+        </div>
+        <div class="mock-row">
+          <div><div class="mock-k">Every</div><div>Tuesday, 5pm</div></div>
+          <div><div class="mock-k">Next charge</div><div>1 December</div></div>
+        </div>
+        <div>
+          <div class="mock-k" style="margin-bottom:10px">This month: 3 of 4 lessons left</div>
+          <div class="dots"><i class="used"></i><i></i><i></i><i></i></div>
+        </div>
+        <div class="mock-list">
+          <div><span>Lesson completed · 1 credit used</span><span>18 Nov</span></div>
+          <div><span>Lesson moved to Thursday · credit kept</span><span>11 Nov</span></div>
+          <div><span>Monthly payment received</span><span>1 Nov</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+)}
+
+{kind === 'analysis' && (
+  <div class="illus-wrap">
+    <div class="illus-text">
+      <h3>What a parent sees</h3>
+      <p class="muted">Each weak topic shows where the child started and where they are now. One scale shows the starting grade, the current grade and the target.</p>
+      <div class="illus-note">Illustration. Names and details are invented.</div>
+    </div>
+    <div class="mock" role="img" aria-label="Illustration of a parent's progress page: three topics with bars moving from red towards green, and a grade scale showing start C, now B, target A">
+      <div class="mock-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="mock-body" aria-hidden="true">
+        <div class="mock-row"><div><div class="mock-k">Alex · A-Level Maths</div><div class="mock-big">November progress</div></div><div class="mock-pill">Approved by tutor</div></div>
+        <div>
+          <div class="mock-k" style="margin-bottom:12px">Knowledge gaps closing</div>
+          <div class="rag-list">
+            <div><span>Differentiation</span><div class="rag"><i class="start" style="left:12%"></i><i class="now" style="left:86%"></i></div></div>
+            <div><span>Integration</span><div class="rag"><i class="start" style="left:22%"></i><i class="now" style="left:60%"></i></div></div>
+            <div><span>Vectors</span><div class="rag"><i class="start" style="left:8%"></i><i class="now" style="left:38%"></i></div></div>
+          </div>
+          <div class="rag-key"><span><i class="start"></i>Month 1</span><span><i class="now"></i>Now</span></div>
+        </div>
+        <div>
+          <div class="mock-k" style="margin-bottom:12px">Grade</div>
+          <div class="grades">
+            {['E','D','C','B','A','A*'].map((g) => (
+              <div class={g === 'C' ? 'g start' : g === 'B' ? 'g now' : g === 'A' ? 'g target' : 'g'}>{g}</div>
+            ))}
+          </div>
+          <div class="rag-key"><span><i class="start"></i>Started at C</span><span><i class="now"></i>Now B</span><span><i class="target"></i>Target A</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+)}
+
+{kind === 'compliance' && (
+  <div class="illus-wrap">
+    <div class="illus-text">
+      <h3>What the head of tutoring sees</h3>
+      <p class="muted">Three checks, each with its evidence saved, and one verdict. The next check is already scheduled.</p>
+      <div class="illus-note">Illustration. Names and details are invented.</div>
+    </div>
+    <div class="mock" role="img" aria-label="Illustration of a tutor vetting record: three checks all clear, verdict PASS, next check due in 90 days">
+      <div class="mock-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="mock-body" aria-hidden="true">
+        <div class="mock-row"><div><div class="mock-k">Tutor vetting</div><div class="mock-big">Jamie Example</div></div><div class="verdict pass">PASS</div></div>
+        <div class="checks">
+          <div><b class="ok">✓</b><span>Criminal record status</span><span class="muted">Certificate current</span></div>
+          <div><b class="ok">✓</b><span>Teacher record</span><span class="muted">No restrictions</span></div>
+          <div><b class="ok">✓</b><span>Public-source search</span><span class="muted">Nothing found</span></div>
+        </div>
+        <div class="mock-row"><div><div class="mock-k">Checked</div><div>18 November</div></div><div><div class="mock-k">Next check</div><div>16 February</div></div></div>
+        <div class="verdict-key"><span class="verdict pass">PASS</span> clear <span class="verdict hold">HOLD</span> a person reviews <span class="verdict fail">FAIL</span> blocked</div>
+      </div>
+    </div>
+  </div>
+)}
+
+{kind === 'classroom' && (
+  <div class="illus-wrap">
+    <div class="illus-text">
+      <h3>What a tutor sees</h3>
+      <p class="muted">A function typed in plain notation becomes a graph on the board, next to its derivative. A line of music plays on every student's computer.</p>
+      <div class="illus-note">Illustration, redrawn for this site.</div>
+    </div>
+    <div class="mock" role="img" aria-label="Illustration of the whiteboard: a graph of y equals x squared and its derivative 2x, and a short line of music notation">
+      <div class="mock-bar" aria-hidden="true"><span></span><span></span><span></span></div>
+      <div class="mock-body board" aria-hidden="true">
+        <div class="tools"><span>Pen</span><span>Text</span><span class="on">Graph</span><span>Music</span><span>Metronome</span></div>
+        <div class="board-row">
+          <div class="board-card">
+            <div class="mock-k">y = x^2 &nbsp;→&nbsp; y = x²</div>
+            <svg viewBox="0 0 200 140" width="100%">
+              <defs><pattern id="g" width="20" height="20" patternUnits="userSpaceOnUse"><path d="M20 0H0V20" fill="none" stroke="#e1e6ec"/></pattern></defs>
+              <rect width="200" height="140" fill="url(#g)"/>
+              <line x1="100" y1="0" x2="100" y2="140" stroke="#33445a"/><line x1="0" y1="120" x2="200" y2="120" stroke="#33445a"/>
+              <path d="M30 22 Q100 218 170 22" fill="none" stroke="#0f1c2e" stroke-width="3"/>
+              <line x1="50" y1="140" x2="150" y2="20" stroke="#a63a0b" stroke-width="3"/>
+            </svg>
+            <div class="legend"><span><i style="background:#0f1c2e"></i>x²</span><span><i style="background:#a63a0b"></i>2x</span></div>
+          </div>
+          <div class="board-card">
+            <div class="mock-k">♩ = 90</div>
+            <svg viewBox="0 0 200 90" width="100%">
+              {[20,30,40,50,60].map((y) => <line x1="6" y1={y} x2="194" y2={y} stroke="#33445a"/>)}
+              <line x1="194" y1="20" x2="194" y2="60" stroke="#33445a" stroke-width="2"/>
+              {[[40,55],[70,50],[100,45],[130,40]].map(([x,y]) => (<g><ellipse cx={x} cy={y} rx="7" ry="5" fill="#0f1c2e" transform={`rotate(-20 ${x} ${y})`}/><line x1={x+6} y1={y} x2={x+6} y2={y-30} stroke="#0f1c2e" stroke-width="2"/></g>))}
+              <g><ellipse cx="165" cy="35" rx="7" ry="5" fill="none" stroke="#0f1c2e" stroke-width="2" transform="rotate(-20 165 35)"/><ellipse cx="165" cy="45" rx="7" ry="5" fill="none" stroke="#0f1c2e" stroke-width="2" transform="rotate(-20 165 45)"/></g>
+            </svg>
+            <div class="legend"><span class="play">▶ Play for the class</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+)}
+
+{kind === 'rescue' && (
+  <div class="illus-wrap">
+    <div class="illus-text">
+      <h3>Two months, in order</h3>
+      <p class="muted">Foundations first, then the team, then the specification, then testing, then the demonstration. The sprint ran about two weeks over, at no extra cost.</p>
+    </div>
+    <div class="mock timeline-mock" role="img" aria-label="Timeline from May to July 2026: secure the foundations, find the partner, write the specification, test every release, demonstrate to investors">
+      <div class="mock-body" aria-hidden="true">
+        <div class="months"><span>May</span><span>June</span><span>July</span></div>
+        <div class="track"><div class="fill"></div></div>
+        <ol class="milestones">
+          <li><b>1</b>Secure the foundations</li>
+          <li><b>2</b>Fixed-price partner</li>
+          <li><b>3</b>Precise specifications</li>
+          <li><b>4</b>Test every release</li>
+          <li class="last"><b>5</b>Live demonstration</li>
+        </ol>
+      </div>
+    </div>
+  </div>
+)}

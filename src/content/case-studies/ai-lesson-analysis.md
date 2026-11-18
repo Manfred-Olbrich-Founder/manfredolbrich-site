@@ -3,6 +3,7 @@ order: 1
 code: "CS-01"
 category: "AI product"
 status: "Live with families"
+visual: "analysis"
 title: "AI lesson analysis with a human sign-off"
 summary: "How I turned lesson recordings into monthly evidence of progress that a parent can trust, with AI doing the reading and a tutor making the call."
 card:

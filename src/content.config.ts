@@ -29,6 +29,7 @@ const caseStudies = defineCollection({
         numbers: z.array(z.object({ value: z.string(), label: z.string() })),
       })
       .optional(),
+    visual: z.string().optional(),
     lessons: z.object({ label: z.string(), heading: z.string(), items: z.array(item) }).optional(),
   }),
 });

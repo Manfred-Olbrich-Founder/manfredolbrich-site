@@ -3,6 +3,7 @@ order: 3
 code: "CS-03"
 category: "Agentic automation"
 status: "Live in tutor vetting"
+visual: "compliance"
 title: "A compliance agent for vetting tutors"
 summary: "How I cut background checks from an hour per tutor to fifteen minutes, and left a complete record behind every decision."
 card:

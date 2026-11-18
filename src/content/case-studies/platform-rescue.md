@@ -3,6 +3,7 @@ order: 4
 code: "CS-04"
 category: "Technical delivery"
 status: "Delivered on budget"
+visual: "rescue"
 title: "Rescuing a half-built platform in two months"
 summary: "How I took an unfinished product with no engineering team to a working platform, on a fixed budget, while customers waited."
 card:

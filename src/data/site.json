@@ -5,6 +5,7 @@
   "linkedin": "https://www.linkedin.com/in/manfred-olbrich-98b032b6",
   "cv": "",
   "hero": {
+    "style": "dark",
     "label": "Founder & former CEO, LessonWise (now Alucea)",
     "headline": "I spent seven years building a subscription AI tutoring platform from the ground up.",
     "intro": "I came up with LessonWise, founded it and took it through three pivots to BrightPath: a tutoring service where AI analyses every lesson and a person signs it off. BrightPath is live today and still serves families. This site shows who I am, how I work and what I learned on the way.",
@@ -95,35 +96,43 @@
     "items": [
       {
         "title": "Product",
-        "text": "Wrote the full set of product requirements: user stories, acceptance criteria and data rules."
+        "text": "Wrote the full set of product requirements: user stories, acceptance criteria and data rules.",
+        "icon": "<path d=\"M4 4h12l4 4v12H4z\"/><path d=\"M8 12h8M8 16h5\"/>"
       },
       {
         "title": "AI and automation",
-        "text": "Human-in-the-loop design, retrieval-grounded chat and evaluation targets on Google Gemini models."
+        "text": "Human-in-the-loop design, retrieval-grounded chat and evaluation targets on Google Gemini models.",
+        "icon": "<rect x=\"5\" y=\"7\" width=\"14\" height=\"11\" rx=\"2\"/><path d=\"M12 3v4M9 12h.01M15 12h.01M9 15h6\"/>"
       },
       {
         "title": "Technical delivery",
-        "text": "Managed engineering vendors across the UK, India and the Philippines, and commissioned a code audit of four codebases."
+        "text": "Managed engineering vendors across the UK, India and the Philippines, and commissioned a code audit of four codebases.",
+        "icon": "<path d=\"M8 8l-4 4 4 4M16 8l4 4-4 4M13 6l-2 12\"/>"
       },
       {
         "title": "Fundraising and investors",
-        "text": "Raised £1.6 million in equity and debt, reported to investors every month and built the 2026–2030 business plan."
+        "text": "Raised £1.6 million in equity and debt, reported to investors every month and built the 2026–2030 business plan.",
+        "icon": "<path d=\"M4 18l5-5 4 3 7-8\"/><path d=\"M15 8h5v5\"/>"
       },
       {
         "title": "Team",
-        "text": "Hired and led a peak team of 18 across three countries, in sales, marketing, support and engineering."
+        "text": "Hired and led a peak team of 18 across three countries, in sales, marketing, support and engineering.",
+        "icon": "<circle cx=\"9\" cy=\"8\" r=\"3\"/><circle cx=\"17\" cy=\"9\" r=\"2.5\"/><path d=\"M3 19c0-3 3-5 6-5s6 2 6 5M15 14c3 0 6 1.5 6 4.5\"/>"
       },
       {
         "title": "Finance and operations",
-        "text": "Ran bookkeeping, financial reporting and grant applications, and two R&D tax credit claims documenting the platform's technical work."
+        "text": "Ran bookkeeping, financial reporting and grant applications, and two R&D tax credit claims documenting the platform's technical work.",
+        "icon": "<rect x=\"4\" y=\"4\" width=\"16\" height=\"16\" rx=\"2\"/><path d=\"M8 9h8M8 13h8M8 17h4\"/>"
       },
       {
         "title": "Safeguarding and data",
-        "text": "Built the safeguarding framework and the access and GDPR rules for children's data."
+        "text": "Built the safeguarding framework and the access and GDPR rules for children's data.",
+        "icon": "<path d=\"M12 3l7 3v6c0 4-3 7.5-7 9-4-1.5-7-5-7-9V6z\"/><path d=\"M9 12l2 2 4-4\"/>"
       },
       {
         "title": "Partnerships",
-        "text": "Delivered free group tutoring to disadvantaged pupils in Ireland with the charity Teach One, Save One."
+        "text": "Delivered free group tutoring to disadvantaged pupils in Ireland with the charity Teach One, Save One.",
+        "icon": "<path d=\"M8 12l3 3 5-6\"/><circle cx=\"12\" cy=\"12\" r=\"9\"/>"
       }
     ]
   },

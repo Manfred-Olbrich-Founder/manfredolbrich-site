@@ -3,6 +3,7 @@ order: 2
 code: "CS-02"
 category: "Product design"
 status: "Live with families"
+visual: "wallet"
 title: "The Wallet: subscriptions that survive real family life"
 summary: "How I replaced spreadsheets and guesswork with one account that tells a parent what they have paid for, tells a tutor what they are owed, and never gets in the way of a lesson."
 card:

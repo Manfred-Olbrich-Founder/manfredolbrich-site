@@ -2,6 +2,7 @@
 import { getCollection } from 'astro:content';
 import Base from '../../layouts/Base.astro';
 import site from '../../data/site.json';
+import Illustration from '../../components/Illustration.astro';
 
 export async function getStaticPaths() {
   const studies = (await getCollection('case-studies')).sort((a, b) => a.data.order - b.data.order);
@@ -88,6 +89,7 @@ const num = () => String(++n).padStart(2, '0');
             </li>
           ))}
         </ol>
+        {d.visual && <Illustration kind={d.visual} />}
       </div>
     </section>
 
