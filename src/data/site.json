@@ -191,5 +191,42 @@
   "contact": {
     "heading": "Give me a hard problem and a customer.",
     "text": "I am looking for a full-time role in AI product or deployment. London based, open to relocation. I work in English, German and Spanish."
+  },
+  "stack": {
+    "heading": "Technology I have worked with",
+    "groups": [
+      {
+        "title": "Platforms I led",
+        "note": "Specified, managed and tested by me. Built by my engineering teams.",
+        "items": [
+          "Angular",
+          "React",
+          "Node.js",
+          "Python",
+          "MongoDB",
+          "AWS",
+          "Google Cloud",
+          "BigBlueButton",
+          "WebRTC",
+          "Zoom Video SDK"
+        ]
+      },
+      {
+        "title": "Hands-on, in daily use",
+        "note": "Tools I build and run myself.",
+        "items": [
+          "Gemini API",
+          "Google AI Studio",
+          "Google Apps Script",
+          "Claude Code",
+          "HubSpot",
+          "Stripe",
+          "WhatsApp Business API",
+          "Zapier",
+          "Make",
+          "n8n"
+        ]
+      }
+    ]
   }
 }

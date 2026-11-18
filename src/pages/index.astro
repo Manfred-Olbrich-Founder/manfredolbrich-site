@@ -116,6 +116,20 @@ const cvLabel = site.cv ? 'Download CV' : 'Request my CV';
             </div>
           ))}
         </div>
+        {site.stack && (
+          <div class="stack">
+            <h3>{site.stack.heading}</h3>
+            <div class="stack-groups">
+              {site.stack.groups.map((g) => (
+                <div>
+                  <div class="stack-title">{g.title}</div>
+                  <p class="muted">{g.note}</p>
+                  <ul class="chips">{g.items.map((x) => <li>{x}</li>)}</ul>
+                </div>
+              ))}
+            </div>
+          </div>
+        )}
       </div>
     </section>
 

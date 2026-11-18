@@ -291,3 +291,12 @@ h3 { font-size: 22px; line-height: 1.25; font-weight: 600; }
 .facts .fact { border-left: 2px solid var(--accent-on-dark); padding-left: 16px; }
 
 .board-card .mock-k { text-transform: none; letter-spacing: 0; font-size: 13px; }
+
+/* Technology */
+.stack { margin-top: 56px; display: flex; flex-direction: column; gap: 24px; }
+.stack h3 { font-size: 24px; }
+.stack-groups { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr)); gap: 32px 48px; }
+.stack-groups > div { display: flex; flex-direction: column; gap: 8px; }
+.stack-title { font-family: var(--mono); font-size: 14px; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
+.chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.chips li { font-size: 15px; padding: 6px 12px; border: 1px solid var(--line-2); border-radius: 999px; background: #fff; }
