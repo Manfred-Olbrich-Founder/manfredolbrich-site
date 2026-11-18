@@ -30,6 +30,7 @@ const cvLabel = site.cv ? 'Download CV' : 'Request my CV';
       <div class="wrap">
         <div class="hero-text">
           <div class="label">{site.hero.label}</div>
+          {site.hero.skills && <div class="skills">{site.hero.skills}</div>}
           <h1>{site.hero.headline}</h1>
           <p class="intro">{site.hero.intro}</p>
           <div class="btn-row">

@@ -7,7 +7,7 @@ title: "Rescuing a half-built platform in two months"
 summary: "How I took an unfinished product with no engineering team to a working platform, on a fixed budget, while customers waited."
 card:
   problem: "Spring 2026: the new platform was unfinished, the classroom software was unreliable, and customers were waiting."
-  action: "Secured the cloud infrastructure, brought in a new engineering partner, wrote the scope and tested every release myself. In parallel I led the move of live classrooms from BigBlueButton to the Zoom Video SDK, with the cost model, and evaluated transcription providers."
+  action: "Secured the cloud infrastructure and Google for Startups cloud credits, brought in a new engineering partner, wrote the scope and tested every release myself. In parallel I led the move of live classrooms from BigBlueButton to the Zoom Video SDK, with the cost model, and evaluated transcription providers."
   result: "The core platform was delivered on budget and demonstrated to investors within about two months."
 facts:
   - label: "My role"
@@ -33,7 +33,7 @@ steps:
   heading: "Five moves, in this order."
   items:
     - title: "Secure the foundations"
-      text: "Brought every cloud account, database and email service under company control, working with the cloud provider's engineers."
+      text: "Brought every cloud account, database and email service under company control, working with the cloud provider's engineers, and secured Google for Startups cloud credits to cover hosting costs."
     - title: "Find the right partner"
       text: "Brought in an engineering agency and agreed a sprint plan with a fixed scope and a fixed price."
     - title: "Write it down precisely"
