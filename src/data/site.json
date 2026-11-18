@@ -87,7 +87,7 @@
     ]
   },
   "work": {
-    "heading": "Four problems, and how I solved them.",
+    "heading": "Five problems, and how I solved them.",
     "intro": "Each one covers the problem, the decisions I made and what happened. Full specifications are available on request."
   },
   "breadth": {
@@ -115,7 +115,7 @@
       },
       {
         "title": "Finance and operations",
-        "text": "Ran bookkeeping, financial reporting, R&D tax credit claims and grant applications."
+        "text": "Ran bookkeeping, financial reporting and grant applications, and two R&D tax credit claims documenting the platform's technical work."
       },
       {
         "title": "Safeguarding and data",

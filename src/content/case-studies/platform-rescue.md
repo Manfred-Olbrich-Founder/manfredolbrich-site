@@ -50,7 +50,7 @@ decisions:
     - title: "Fixed scope, fixed price"
       text: "I agreed the full list of work and the cost up front. When the sprint ran about two weeks over, the extra time cost nothing."
     - title: "Take the classroom off the critical path"
-      text: "The unreliable classroom could have swallowed the whole sprint. I moved lessons to standard video links as a stopgap, and ran the move from BigBlueButton to the Zoom Video SDK as its own piece of work, with a cost model per lesson."
+      text: "The unreliable classroom could have swallowed the whole sprint. I moved lessons to standard video links as a stopgap, and ran the move from BigBlueButton to the Zoom Video SDK as its own piece of work, with a cost model per lesson. After three years of extending BigBlueButton, I knew exactly where its limits were."
     - title: "Buy reliability, build the difference"
       text: "Video and transcription are solved problems. I compared providers on cost and quality and bought them in, so engineering time went on what made the product different: the analysis of each lesson."
 result:
