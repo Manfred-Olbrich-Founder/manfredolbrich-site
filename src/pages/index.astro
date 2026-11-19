@@ -19,6 +19,7 @@ const cvLabel = site.cv ? 'Download CV' : 'Request my CV';
         <a href="#journey">Journey</a>
         <a href="#work">Case studies</a>
         <a href="#breadth">Breadth</a>
+        <a href="#how">How I work</a>
         <a href="#now">Now</a>
         <a class="btn dark" href="#contact">Get in touch</a>
       </nav>
@@ -133,10 +134,33 @@ const cvLabel = site.cv ? 'Download CV' : 'Request my CV';
       </div>
     </section>
 
+    <section class="section alt" id="how">
+      <div class="wrap">
+        <div class="head">
+          <div class="label">04 · How I work</div>
+          <h2>{site.how.heading}</h2>
+          <p class="muted">{site.how.intro}</p>
+        </div>
+        <div class="how-stats">
+          {site.how.stats.map((s) => (
+            <div><div class="value">{s.value}</div><div class="caption">{s.label}</div></div>
+          ))}
+        </div>
+        <div class="points how-points">
+          {site.how.items.map((i) => (
+            <div>
+              <h3>{i.title}</h3>
+              <p>{i.text}</p>
+            </div>
+          ))}
+        </div>
+      </div>
+    </section>
+
     <section class="section dark" id="now">
       <div class="wrap split">
         <div class="side">
-          <div class="label">04 · What I build now</div>
+          <div class="label">05 · What I build now</div>
           <h2>{site.now.heading}</h2>
           <p class="muted">{site.now.intro}</p>
         </div>
@@ -156,7 +180,7 @@ const cvLabel = site.cv ? 'Download CV' : 'Request my CV';
     <section class="section" id="lessons">
       <div class="wrap">
         <div class="head">
-          <div class="label">05 · What it taught me</div>
+          <div class="label">06 · What it taught me</div>
           <h2>{site.lessons.heading}</h2>
         </div>
         <div class="points">

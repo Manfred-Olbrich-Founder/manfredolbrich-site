@@ -300,3 +300,10 @@ h3 { font-size: 22px; line-height: 1.25; font-weight: 600; }
 .stack-title { font-family: var(--mono); font-size: 14px; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); }
 .chips { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
 .chips li { font-size: 15px; padding: 6px 12px; border: 1px solid var(--line-2); border-radius: 999px; background: #fff; }
+
+/* How I work */
+.how-stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(180px, 100%), 1fr)); gap: 24px; margin-bottom: 56px; }
+.how-stats > div { background: var(--ink); color: var(--on-dark); padding: 24px; border-radius: 6px; }
+.how-stats .value { font-size: clamp(32px, 3.4vw, 44px); font-weight: 700; letter-spacing: -0.02em; line-height: 1; color: #fff; }
+.how-stats .caption { margin-top: 8px; font-size: 15px; color: var(--on-dark-muted); }
+.how-points > div { border-top: 2px solid var(--accent); padding-top: 18px; }

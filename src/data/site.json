@@ -65,7 +65,7 @@
         "when": "2023 · Pivot 2",
         "kind": "pivot",
         "title": "One-to-one first",
-        "text": "Narrowed the offer to one-to-one tuition to build a base of families who trusted us before going wider."
+        "text": "Narrowed the offer to one-to-one tuition to build a base of families who trusted us before going wider. In parallel I applied for an Innovate UK Smart grant, and ran free maths masterclasses through community organisations."
       },
       {
         "when": "2024 · Rebuilding",
@@ -77,13 +77,13 @@
         "when": "2025 · Pivot 3",
         "kind": "pivot",
         "title": "BrightPath: managed tutoring with AI in every lesson",
-        "text": "Short-term exam customers did not stay. I redesigned the business around families who wanted their child's learning managed, on subscription, with evidence of progress every month."
+        "text": "Short-term exam customers did not stay. I redesigned the business around families who wanted their child's learning managed, on subscription, with evidence of progress every month. I also set up an offshore support team to give families faster answers."
       },
       {
         "when": "2026 · Shipped and handed over",
         "kind": "end",
         "title": "BrightPath live with paying families",
-        "text": "In September 2026 I handed the company to a new leadership team. It continues today as Alucea."
+        "text": "BrightPath was live with paying families, and a multinational company signed a 12-month staff training plan with us. In September 2026 I handed the company to a new leadership team. It continues today as Alucea."
       }
     ]
   },
@@ -116,7 +116,7 @@
       },
       {
         "title": "Team",
-        "text": "Hired and led a peak team of 18 across three countries, in sales, marketing, support and engineering.",
+        "text": "Hired and led a peak team of 18 across three countries, in sales, marketing, support and engineering, including an offshore support team.",
         "icon": "<circle cx=\"9\" cy=\"8\" r=\"3\"/><circle cx=\"17\" cy=\"9\" r=\"2.5\"/><path d=\"M3 19c0-3 3-5 6-5s6 2 6 5M15 14c3 0 6 1.5 6 4.5\"/>"
       },
       {
@@ -133,6 +133,16 @@
         "title": "Partnerships",
         "text": "Delivered free group tutoring to disadvantaged pupils in Ireland with the charity Teach One, Save One.",
         "icon": "<path d=\"M8 12l3 3 5-6\"/><circle cx=\"12\" cy=\"12\" r=\"9\"/>"
+      },
+      {
+        "title": "Grants and public funding",
+        "text": "Applied twice for an Innovate UK Smart grant, narrowly missing the second time, and prepared two R&D tax credit claims.",
+        "icon": "<path d=\"M4 20h16M6 20V10M10 20V10M14 20V10M18 20V10M3 10l9-6 9 6z\"/>"
+      },
+      {
+        "title": "B2B and charity sales",
+        "text": "Bid for a national charity's tutoring tender, and won a 12-month staff training plan with a multinational company.",
+        "icon": "<rect x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18\"/>"
       }
     ]
   },
@@ -226,6 +236,54 @@
           "Make",
           "n8n"
         ]
+      }
+    ]
+  },
+  "how": {
+    "heading": "How I work.",
+    "intro": "Measured across six years of my own sent email, and shown in what I did with it.",
+    "stats": [
+      {
+        "value": "26 min",
+        "label": "my typical reply time"
+      },
+      {
+        "value": "63%",
+        "label": "of replies sent within an hour"
+      },
+      {
+        "value": "16,500",
+        "label": "emails I wrote"
+      },
+      {
+        "value": "744",
+        "label": "organisations I dealt with"
+      }
+    ],
+    "items": [
+      {
+        "title": "When a customer is hurt, I act that evening.",
+        "text": "A browser update once broke the audio in our classroom mid-lesson. I escalated within minutes, refunded the families and paid the tutor myself, then moved a full upgrade into the Christmas break, when lessons were quiet."
+      },
+      {
+        "title": "I write the first draft myself.",
+        "text": "For an Innovate UK grant, I wrote the technical answers over a weekend, before the grant writer was back from holiday."
+      },
+      {
+        "title": "I treat a no as data.",
+        "text": "Innovate UK turned us down. I asked straight away to go through the assessors' feedback, found the gap and resubmitted. We missed again, by a small margin."
+      },
+      {
+        "title": "I scope from the customer's real numbers.",
+        "text": "Before pricing a tender for a national education charity, I asked for their peak number of live sessions and users, so the quote matched how they actually taught."
+      },
+      {
+        "title": "I look for the deal both sides can say yes to.",
+        "text": "I swapped a supplier's two-month deposit for an earlier payment date, and offered a client the option to fund development and get it back as platform credit."
+      },
+      {
+        "title": "I sell, and I say no when it is right.",
+        "text": "Free community masterclasses brought in families. One enquiry became a matched trial lesson within the hour. When a family needed face-to-face lessons we could not offer, I pointed them to a local tutor."
       }
     ]
   }
