@@ -55,7 +55,7 @@ decisions:
     - title: "A published month cannot be edited"
       text: "Each monthly update is stored as its own snapshot. A correction goes back through the tutor's approval; nobody can quietly rewrite history."
     - title: "Cut what costs more than it gives"
-      text: "My first AI specification, in 2023, included reading students' emotions from their voice. When it proved too complex and costly for what it added, I removed it and kept the features parents would actually use."
+      text: "My first AI specification, in 2023, included reading students' emotions from their voice. When it proved too complex and costly for what it added, I removed it from the scope."
     - title: "Children's data gets the strictest rule"
       text: "A parent sees their own child and nobody else, enforced on every page. I wrote the access and data-protection rules into the specification itself."
 extra:
