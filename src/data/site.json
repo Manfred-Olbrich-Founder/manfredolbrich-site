@@ -96,7 +96,7 @@
     "items": [
       {
         "title": "Product",
-        "text": "Wrote the full set of product requirements, with user stories, acceptance criteria and data rules, and ran daily product reviews of the build against them. Also specified the automated lesson emails: reminders 24 hours and 2 hours before each lesson, and a feedback survey afterwards.",
+        "text": "Wrote the full set of product requirements, with user stories, acceptance criteria and data rules, and ran daily product reviews of the build against them. Also specified the automated lesson emails: reminders 24 hours and 2 hours before each lesson, and a feedback survey afterwards. Wrote the analytics tracking plan for Google Analytics: which user actions to record and how.",
         "icon": "<path d=\"M4 4h12l4 4v12H4z\"/><path d=\"M8 12h8M8 16h5\"/>"
       },
       {
@@ -305,6 +305,10 @@
       {
         "title": "When a client is unhappy, I change course that week.",
         "text": "A company felt its group English course was not meeting each learner's needs. I wrote up what they told me, moved them to one-to-one lessons the following week, and matched them with a tutor focused on conversation. They carried on with us."
+      },
+      {
+        "title": "I choose customers deliberately.",
+        "text": "I wrote down who our ideal family was and told the team not to sign up families who were a poor fit. They took too much support time and left quickly."
       }
     ]
   }
