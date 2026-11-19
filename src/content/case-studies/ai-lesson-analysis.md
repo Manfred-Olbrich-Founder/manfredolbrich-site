@@ -16,7 +16,7 @@ facts:
   - label: "Worked with"
     value: "Engineers, tutors and account managers"
   - label: "Built on"
-    value: "Google Gemini models, speech-to-text with speaker labels, retrieval"
+    value: "Google Gemini models, speech-to-text with speaker labels, retrieval. Scaled with Google Cloud's team"
   - label: "When"
     value: "2025 to 2026"
 problem:

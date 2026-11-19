@@ -96,7 +96,7 @@
     "items": [
       {
         "title": "Product",
-        "text": "Wrote the full set of product requirements: user stories, acceptance criteria and data rules.",
+        "text": "Wrote the full set of product requirements, with user stories, acceptance criteria and data rules, and ran daily product reviews of the build against them.",
         "icon": "<path d=\"M4 4h12l4 4v12H4z\"/><path d=\"M8 12h8M8 16h5\"/>"
       },
       {

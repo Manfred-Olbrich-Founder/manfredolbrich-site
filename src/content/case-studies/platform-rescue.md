@@ -34,11 +34,11 @@ steps:
   heading: "Five moves, in this order."
   items:
     - title: "Secure the foundations"
-      text: "Brought every cloud account, database and email service under company control, working with the cloud provider's engineers, and secured Google for Startups cloud credits to cover hosting costs."
+      text: "Brought every cloud account, database and email service under company control, working directly with Google Cloud's team to move a critical project into company ownership, and secured Google for Startups cloud credits to cover hosting costs."
     - title: "Find the right partner"
       text: "Brought in an engineering agency and agreed a sprint plan with a fixed scope and a fixed price."
     - title: "Write it down precisely"
-      text: "Rewrote the specifications so a team new to the product could build from them without guessing."
+      text: "Rewrote the specifications so a team new to the product could build from them without guessing, then ran daily product reviews of the build against them."
     - title: "Test every release myself"
       text: "Worked through payments, bookings and the whiteboard by hand, and sorted the bugs by urgency."
     - title: "Show it working"

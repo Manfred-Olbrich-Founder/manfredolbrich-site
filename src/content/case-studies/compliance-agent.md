@@ -44,7 +44,7 @@ steps:
     - title: "One verdict"
       text: "PASS, HOLD or FAIL. A HOLD or FAIL alerts the head of tutoring at once."
 decisions:
-  heading: "Six calls I made, and why."
+  heading: "Seven calls I made, and why."
   items:
     - title: "Use the official door first"
       text: "Where a government service offers a proper route for employers, the agent uses it. Automation that bends a service's rules is a liability in a safeguarding process."
@@ -56,6 +56,8 @@ decisions:
       text: "Many people share a name. A public-source finding needs a second matching detail before it is attached to a tutor, so a stranger's record never lands on the wrong file."
     - title: "Checks expire"
       text: "Active tutors are re-checked every 90 days, and every 30 days in higher-risk roles. Vetting becomes a schedule, not an event."
+    - title: "Raise the bar beyond the minimum"
+      text: "In November 2025 I made a teacher-prohibition check mandatory for every tutor, not only qualified teachers, and had everyone on the internal team complete an enhanced DBS check too."
     - title: "Evidence, not opinions"
       text: "Every result is saved with its source, its time and who ran it, in a log that cannot be altered. Personal details are encrypted, and each role sees only what it needs."
 result:
