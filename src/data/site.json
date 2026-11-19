@@ -53,7 +53,7 @@
         "when": "2019 – 2021 · Founding",
         "kind": "plain",
         "title": "LessonWise: a platform for tutors to teach groups online",
-        "text": "Wrote a 200-page product requirements document covering every user journey and feature, ran a tender, and led an offshore team to launch. The platform had a classroom built for large groups; payments tied to each lesson taking place, with tutors paid within 72 hours; messaging that let students find each other and form groups for courses; homework and assessment tools; and a profile page where tutors could promote themselves and launch their own courses. About 200 tutors joined within months."
+        "text": "Wrote a 200-page product requirements document covering every user journey and feature, ran a tender, and led an offshore team to launch. The platform had a classroom built for large groups; payments tied to each lesson taking place, with tutors paid within 72 hours; messaging that let students find each other and form groups for courses; homework and assessment tools; and a profile page where tutors could promote themselves and launch their own courses. About 200 tutors joined within months, from several countries, so I worked with our payment provider and developers to get tutor payouts working country by country."
       },
       {
         "when": "Late 2021 · Pivot 1",
@@ -141,7 +141,7 @@
       },
       {
         "title": "Marketing and growth",
-        "text": "Tested campaigns before scaling them, tracked each one back to the leads it brought in, and ran free community masterclasses that brought in families.",
+        "text": "Tested campaigns before scaling them, tracked each one back to the leads it brought in, had tutors record worked exam answers on our whiteboard for social media, and ran free community masterclasses that brought in families.",
         "icon": "<path d=\"M3 11v2a1 1 0 0 0 1 1h3l5 4V6L7 10H4a1 1 0 0 0-1 1z\"/><path d=\"M16 9a4 4 0 0 1 0 6M19 6a8 8 0 0 1 0 12\"/>"
       },
       {
