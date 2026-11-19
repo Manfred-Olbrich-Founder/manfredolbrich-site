@@ -101,7 +101,7 @@
       },
       {
         "title": "AI and automation",
-        "text": "Human-in-the-loop design, retrieval-grounded chat and evaluation targets on Google Gemini models. Built CRM workflows that chased tutors to book interviews, and gave every tutor a booking link so sales could book trial lessons without waiting on emails.",
+        "text": "Human-in-the-loop design, retrieval-grounded chat and evaluation targets on Google Gemini models. Built CRM workflows that chased tutors to book interviews, and had tutors set up booking links so sales could book trial lessons without chasing them by email.",
         "icon": "<rect x=\"5\" y=\"7\" width=\"14\" height=\"11\" rx=\"2\"/><path d=\"M12 3v4M9 12h.01M15 12h.01M9 15h6\"/>"
       },
       {
