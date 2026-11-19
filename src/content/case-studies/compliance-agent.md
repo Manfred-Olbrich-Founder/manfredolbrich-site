@@ -59,7 +59,7 @@ decisions:
     - title: "Tighten the front door"
       text: "A recruitment partner collected two references, degree checks and a criminal record check before a tutor reached us. I also added a code-of-conduct rule on lesson recordings and camera use."
     - title: "Raise the bar beyond the minimum"
-      text: "In November 2025 I made a teacher-prohibition check mandatory for every tutor, not only qualified teachers, and had everyone on the internal team complete an enhanced DBS check too."
+      text: "In August 2025 I realised a clean criminal record check does not show whether someone is banned from teaching. I asked the government's teacher regulation team how a tutoring provider should check. In November 2025 I made a teacher-prohibition check mandatory for every tutor, not only qualified teachers, and had everyone on the internal team complete an enhanced DBS check too."
     - title: "Evidence, not opinions"
       text: "Every result is saved with its source, its time and who ran it, in a log that cannot be altered. Personal details are encrypted, and each role sees only what it needs."
 result:
