@@ -24,7 +24,7 @@ problem:
   lead: "Every parent asks it. In most tutoring, the honest answer is a tutor's impression."
   points:
     - title: "Parents got anecdotes"
-      text: "“She's doing well” is not evidence. Families paying for a premium service needed to see what had changed, topic by topic."
+      text: "“She's doing well” is not evidence. Families paying for a premium service needed to see what had changed, topic by topic. In 2024 our tutors wrote reports in a reporting tool on the platform, and I chased the overdue ones myself. It did not scale."
     - title: "The evidence existed, but nobody could read it all"
       text: "Every lesson was recorded. No person has time to watch hundreds of hours a month and compare them with the curriculum."
     - title: "Reviews ate whole days"
