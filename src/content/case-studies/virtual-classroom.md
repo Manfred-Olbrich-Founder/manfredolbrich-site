@@ -82,6 +82,8 @@ result:
       text: "Classroom servers were switched off overnight to cut cloud costs."
     - title: "Recognised"
       text: "The work was documented in two R&D tax credit claims to HMRC, for 2021 and 2022."
+    - title: "Rebuilt in 2025"
+      text: "A rebuilt classroom went live in September 2025. It worked on phones, let everyone write on the whiteboard at once, let students follow the tutor's cursor, added breakout rooms and recorded every lesson automatically."
     - title: "Foundation"
       text: "Three years inside this software taught me exactly where its limits were. That knowledge shaped the decision to replace it in 2026."
 spec:
