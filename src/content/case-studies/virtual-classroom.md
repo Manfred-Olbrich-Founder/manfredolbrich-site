@@ -44,7 +44,7 @@ steps:
     - title: "Works on an iPad"
       text: "Many tutors taught on iPads, so the whole whiteboard had to work by touch."
 decisions:
-  heading: "Five calls I made, and why."
+  heading: "Six calls I made, and why."
   items:
     - title: "Don't make tutors write like programmers"
       text: "Graphs failed when a tutor typed a function the normal way, such as e^x. Instead of teaching tutors a strict syntax, we built a translator that turns everyday maths notation into what the graphing engine expects."
@@ -54,6 +54,8 @@ decisions:
       text: "Full video recording was not yet possible, so we first gave tutors a PDF of the whiteboard after each lesson. When recording became possible, it replaced the PDF."
     - title: "Recording had to capture the whiteboard, not just the faces"
       text: "Recordings were for students to revise and for us to settle disagreements fairly. The standard recording tool kept only 7 of our 25 whiteboard annotation types, which made it useless for both. That requirement drove us to build our own."
+    - title: "Private lessons stay private"
+      text: "We let visitors drop into live lessons to see the classroom at work. When a user pointed out that nobody wants a stranger appearing in a private session, I asked for it to be limited to public courses."
     - title: "Try, measure, change course"
       text: "Recording took three failed approaches before the fourth worked. Each one was tested properly and dropped for a clear reason: missing annotations, a missing shared screen, then too much strain on the tutor's computer."
 extra:
