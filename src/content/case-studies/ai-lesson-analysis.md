@@ -44,7 +44,7 @@ steps:
     - title: "The parent sees progress"
       text: "One page updates each month, with an email to say it is ready."
 decisions:
-  heading: "Six calls I made, and why."
+  heading: "Seven calls I made, and why."
   items:
     - title: "AI drafts, a person decides"
       text: "This is a report about a child, read by their parent. Nothing reaches a family until the tutor who taught the lessons has confirmed it. The AI saves the tutor's time; it does not replace their judgement."
@@ -56,6 +56,8 @@ decisions:
       text: "Each monthly update is stored as its own snapshot. A correction goes back through the tutor's approval; nobody can quietly rewrite history."
     - title: "Cut what costs more than it gives"
       text: "My first AI specification, in 2023, included reading students' emotions from their voice. When it proved too complex and costly for what it added, I removed it from the scope."
+    - title: "A summary a parent can read in a minute"
+      text: "When AI could summarise each lesson, I set the format: what happened in two or three sentences, each topic marked as new, reinforced or checked, engagement described in words, not made-up scores, and what the tutor and parent should do next."
     - title: "Children's data gets the strictest rule"
       text: "A parent sees their own child and nobody else, enforced on every page. I wrote the access and data-protection rules into the specification itself."
 extra:
