@@ -96,7 +96,7 @@
     "items": [
       {
         "title": "Product",
-        "text": "Wrote the full set of product requirements, with user stories, acceptance criteria and data rules, and ran daily product reviews of the build against them.",
+        "text": "Wrote the full set of product requirements, with user stories, acceptance criteria and data rules, and ran daily product reviews of the build against them. I also specified the automated lesson emails: reminders 24 hours and 2 hours before each lesson, and a feedback survey afterwards.",
         "icon": "<path d=\"M4 4h12l4 4v12H4z\"/><path d=\"M8 12h8M8 16h5\"/>"
       },
       {
@@ -141,7 +141,7 @@
       },
       {
         "title": "Marketing and growth",
-        "text": "Tested campaigns before scaling them, tracked each one back to the leads it brought in, had tutors record worked exam answers on our whiteboard for social media, offered a free 68-question GCSE diagnostic test with personal feedback, and ran free community masterclasses that brought in families.",
+        "text": "Tested campaigns before scaling them, used Google Analytics to find the pages where most visitors left and made them the redesign's first priority, tracked each one back to the leads it brought in, had tutors record worked exam answers on our whiteboard for social media, offered a free 68-question GCSE diagnostic test with personal feedback, and ran free community masterclasses that brought in families.",
         "icon": "<path d=\"M3 11v2a1 1 0 0 0 1 1h3l5 4V6L7 10H4a1 1 0 0 0-1 1z\"/><path d=\"M16 9a4 4 0 0 1 0 6M19 6a8 8 0 0 1 0 12\"/>"
       },
       {
