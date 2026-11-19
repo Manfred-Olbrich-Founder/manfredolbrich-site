@@ -116,7 +116,7 @@
       },
       {
         "title": "Team",
-        "text": "Hired and led a peak team of 18 across three countries, in sales, marketing, support and engineering, including an offshore support team.",
+        "text": "Hired and led a peak team of 18 across three countries, in sales, marketing, support and engineering, including an offshore support team. Second-round candidates did a written work sample.",
         "icon": "<circle cx=\"9\" cy=\"8\" r=\"3\"/><circle cx=\"17\" cy=\"9\" r=\"2.5\"/><path d=\"M3 19c0-3 3-5 6-5s6 2 6 5M15 14c3 0 6 1.5 6 4.5\"/>"
       },
       {
@@ -126,12 +126,12 @@
       },
       {
         "title": "Safeguarding and data",
-        "text": "Built the safeguarding framework and the access and GDPR rules for children's data.",
+        "text": "Built the safeguarding framework and the access and GDPR rules for children's data, including identity and right-to-work checks for tutors.",
         "icon": "<path d=\"M12 3l7 3v6c0 4-3 7.5-7 9-4-1.5-7-5-7-9V6z\"/><path d=\"M9 12l2 2 4-4\"/>"
       },
       {
         "title": "Partnerships",
-        "text": "Delivered free group tutoring to disadvantaged pupils in Ireland with the charity Teach One, Save One.",
+        "text": "Delivered free group tutoring to disadvantaged pupils in Ireland with the charity Teach One, Save One, on our platform at no cost, and set up a simple way for it to sell its lesson recordings.",
         "icon": "<path d=\"M8 12l3 3 5-6\"/><circle cx=\"12\" cy=\"12\" r=\"9\"/>"
       },
       {
@@ -140,8 +140,13 @@
         "icon": "<path d=\"M4 20h16M6 20V10M10 20V10M14 20V10M18 20V10M3 10l9-6 9 6z\"/>"
       },
       {
+        "title": "Marketing and growth",
+        "text": "Tested campaigns before scaling them, tracked each one back to the leads it brought in, and ran free community masterclasses that brought in families.",
+        "icon": "<path d=\"M3 11v2a1 1 0 0 0 1 1h3l5 4V6L7 10H4a1 1 0 0 0-1 1z\"/><path d=\"M16 9a4 4 0 0 1 0 6M19 6a8 8 0 0 1 0 12\"/>"
+      },
+      {
         "title": "B2B and charity sales",
-        "text": "Bid for a national charity's tutoring tender, and won a 12-month staff training plan with a multinational company. I also gave our platform free to a charity running free group tutoring, and set up a simple way for it to sell its lesson recordings.",
+        "text": "Bid for a national charity's tutoring tender, and won a 12-month staff training plan with a multinational company.",
         "icon": "<rect x=\"3\" y=\"7\" width=\"18\" height=\"13\" rx=\"2\"/><path d=\"M8 7V5a2 2 0 0 1 2-2h4a2 2 0 0 1 2 2v2M3 13h18\"/>"
       }
     ]
@@ -296,6 +301,10 @@
       {
         "title": "I onboard people myself.",
         "text": "From a tutor's first call to a trial lesson with a student took three days, with their criminal record certificate checked the next morning."
+      },
+      {
+        "title": "When a client is unhappy, I change course that week.",
+        "text": "A company felt its group English course was not meeting each learner's needs. I wrote up what they told me, moved them to one-to-one lessons the following week, and matched them with a tutor focused on conversation. They carried on with us."
       }
     ]
   }
