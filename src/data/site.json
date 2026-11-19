@@ -96,7 +96,7 @@
     "items": [
       {
         "title": "Product",
-        "text": "Wrote the full set of product requirements, with user stories, acceptance criteria and data rules, and ran daily product reviews of the build against them. I also specified the automated lesson emails: reminders 24 hours and 2 hours before each lesson, and a feedback survey afterwards.",
+        "text": "Wrote the full set of product requirements, with user stories, acceptance criteria and data rules, and ran daily product reviews of the build against them. Also specified the automated lesson emails: reminders 24 hours and 2 hours before each lesson, and a feedback survey afterwards.",
         "icon": "<path d=\"M4 4h12l4 4v12H4z\"/><path d=\"M8 12h8M8 16h5\"/>"
       },
       {
