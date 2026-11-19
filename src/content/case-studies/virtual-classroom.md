@@ -78,6 +78,8 @@ result:
   items:
     - title: "Shipped"
       text: "The new classroom went live for tutors in 2021, and recording and touch support followed in 2022."
+    - title: "Lean to run"
+      text: "Classroom servers were switched off overnight to cut cloud costs."
     - title: "Recognised"
       text: "The work was documented in two R&D tax credit claims to HMRC, for 2021 and 2022."
     - title: "Foundation"
